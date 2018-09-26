@@ -1,0 +1,13 @@
+dist: trusty
+sudo: required
+
+language: java
+jdk: oraclejdk8
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: O+5rtdB3q3XCg7+vFByyuPR1FW1NMeq3CmZ5dsHCMbgI06kK+F/I1fL8/Q8ljs/I4WD8NbV8KunPBYsiEQTyxuAdB6NU14NebVGpM3N/HHYVCQUvgkWKBz0M1tpOP4S6nebRecp1NnEO/AVwg3NyjXcfHe6AzlGWYfh8yhz0TLvmtrDFsseS8f5GAK+oNbjsLnwE+SKL8sf074bDY8/PznXJ4Dml7bYA2XceI1dnxUpZ43BnsnP3GY+at884sF9ZPAYLPS1tOTkIgtUmHBFT0G52iyow7FX6nlm+O7ztjl5t55TTRNPw78q9z4mB4J4HjkvK52qD213C9D/J3opMKUma+2U6lAtKMphn9NWtyZ4oqTF1vWp7Q/XfRVLyD5GZ57nnJJm8tyOCAeZwatql8VRFf9EgAHIFb0MAE/22OHmhFuX/CEaInJiyLcn31q/MuK0o1wQi4ckZr647/a0g3DttFa2i2Hlz31dIrJinME70Da3TFzlAzf3sVte8yOqB50+TA0LX1RTMNEAE1jfYCsxsLD2ruEm7Lstj6ddzFNfhTSMlMdxM5hXzCPu6F7c58pJEtL26M+XMyWUOVBLThR26Oa3+nU8oZWB23GJaw/uyafzH/iVpDv5MgNKHJPNfsyVsEIdnG6BISfFhe+Iauxd5oVtKRLpHNsk3qZFcLaM=
+  app: eureka-kpociot
+  on:
+    repo: pociot/hcb-eureka
