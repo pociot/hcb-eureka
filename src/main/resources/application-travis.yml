@@ -3,10 +3,5 @@ spring:
     name: hcb-eureka
 
 eureka:
-  instance:
-    hostname: localhost
-    prefer-ip-address: true
   client:
     enabled: false
-  server:
-    waitTimeInMsWhenSyncEmpty: 0
