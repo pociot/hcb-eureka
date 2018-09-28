@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: hcb-eureka
+
+eureka:
+  client:
+    enabled: false
